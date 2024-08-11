@@ -1,3 +1,14 @@
+This fork is just to share what I did to add the F12 protocol (at least good enough to use in my case) so I could control my Elite Screens Vmax projector screen. 
+My home theater setup requires a keyboard/mouse and 3 remotes for the projector, projector screen and speakers. I found a single remote/'air mouse' that works as a wireless keyboard/mouse with the PC but it also has 5 infrared programmable buttons so seemed like the perfect thing to replace all the remotes and keyboard/mouse. Unfortunately it doesn't work with the "F12" ir protocol the old projector screen uses.
+I was able to follow the ATtiny13-TinyRemote project and modify the code to generate the correct IR signals for the screen and then add the extra switches, 3d print some buttons and cram the other components in the spare space of the air mouse. It doesn't look super pretty, but I found it a fun and challenging project.
+
+![air_mouse_top](https://github.com/eriknz/ATtiny13-TinyRemote-F12/blob/master/documentation/air_mouse_top.jpg)
+![air_mouse_extra_buttons.jpg](https://github.com/eriknz/ATtiny13-TinyRemote-F12/blob/master/documentation/air_mouse_extra_buttons.jpg)
+![air_mouse_end.jpg](https://github.com/eriknz/ATtiny13-TinyRemote-F12/blob/master/documentation/air_mouse_end.jpg)
+![air_mouse_underside](https://github.com/eriknz/ATtiny13-TinyRemote-F12/blob/master/documentation/air_mouse_underside.jpg)
+
+Original readme below:
+
 # TinyRemote - IR Remote Control based on ATtiny13A
 TinyRemote is a 5-button IR remote control based on an ATtiny13A powered by a CR2032 or LIR2032 coin cell battery.
 
